@@ -1,2 +1,2 @@
 #!/bin/bash
-echo  (( RANDOM ))
+echo $((1+  RANDOM % 7 ))
